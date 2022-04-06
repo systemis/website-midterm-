@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+htmle{
+    scroll-behavior: smooth;
+}
+.background{
+    height: 100vh;
+    background-image: url('/components/background.jpg');
+    background-position: center;
+    min-height: 400px;
+    min-width: 980px;
+    padding:20px;
+}
+.border{
+    height: 300px;
+    background: #fff;
+    width:500px;
+}
+.border .messy{
+    padding: 70px;
+    text-align: center;
+}
