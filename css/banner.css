@@ -14,6 +14,7 @@ htmle{
     min-height: 400px;
     min-width: 980px;
     padding:20px;
+    background-attachment: fixed;
 }
 .border{
     height: 300px;
@@ -23,5 +24,9 @@ htmle{
 }
 .border .messy{
     padding: 70px;
-    text-align: center;
+}
+@media(max-width:991px){
+    .background{
+        padding: 0 20px;
+    }
 }
