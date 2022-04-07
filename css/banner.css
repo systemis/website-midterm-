@@ -19,6 +19,7 @@ htmle{
     height: 300px;
     background: #fff;
     width:500px;
+    margin: 300px auto;
 }
 .border .messy{
     padding: 70px;
