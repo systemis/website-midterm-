@@ -7,6 +7,67 @@
 htmle{
     scroll-behavior: smooth;
 }
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin:auto;
+}
+/*navbar styling*/
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    z-index: 999;
+    background: crimson;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background: crimson;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color:coral;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .sticky .logo a span{
+    color:#fff;
+}
+.navbar .logo a span{
+    color: black;
+    transition: all 0.3s ease;
+}
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color:crimson;
+}
+.navbar .sticky .menu .li a span{  
+    color:#fff;
+} 
+.navbar .menu li a:hover{
+    color:deepskyblue;
+    transition: .4s;
+}
+
 .background{
     height: 100vh;
     background-image: url('/components/background.jpg');
