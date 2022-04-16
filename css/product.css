@@ -19,13 +19,20 @@
     top: 0;
     left: 0;
 }
-#name-logo {
+
+#logo a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logo a span {
     text-decoration: none;
-    font-weight: 500;
     font-size: 20px;
     color: #BB743A;
-    margin-right: 620px;
+    padding-left: 7px;
 }
+
 #navbar {
     display: flex;
     align-items: center;
@@ -43,7 +50,7 @@
 
     text-decoration: none;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 600;
     color: #BB743A;
     transition: 0.3s ease;
 }
@@ -62,10 +69,14 @@
     background-color: #8A566E;
     position: absolute;
     left: 30px;
-    
 }
 
-.logo {
+#mobile {
+    display: none;
+    align-items: center;
+}
+
+.logo-img {
     min-width: auto;
     height: 50px;
 }
@@ -150,6 +161,98 @@
     height: 20px;
     border: 1px solid #E2DCDE;
     border-radius: 20px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px 60px;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo-img {
+    padding-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    margin: 0 0 8px 0;
+    color: black
+}
+
+footer .follow i {
+    cursor: pointer;
+    padding-right: 7px;
+}
+
+footer .follow h5 {
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+footer .follow i:hover 
+footer a:hover{
+    color: #BB743A;
+
+}
+
+footer .copyright {
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    #navbar {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #f5f5f5;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+    }
+
+    #navbar .active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-top: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: #BB743A;
+        font-size: 20px;
+        padding-left: 20px;
+    }
 }
 
 
