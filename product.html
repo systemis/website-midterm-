@@ -5,15 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/product.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="script.js">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
 </head>
 
+<script>
+    const bar = document.getElementById('bar');
+    const nav = document.getElementById('navbar');
+
+    if (bar) {
+        bar.addEventListener('click', () => {
+            nav.classList.add('active');
+        })
+    }
+</script>
+
 <body>
     <section id="header">
-        <a href="#"><img src="240658807_131692455861283_7195435849864079620_n.png" class="logo" alt=""></a>
-        <a href="#" id="name-logo">Messy</a>
+        <div id="logo">
+            <a href="#"><img src="240658807_131692455861283_7195435849864079620_n.png" class="logo-img" alt="">
+                <span>Messy</span>
+            </a>
+        </div>
         <div id="nav">
             <ul id="navbar">
                 <li><a class="active" href="index.html">Home</a></li>
@@ -21,8 +36,14 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="login.html">Log In</a></li>
-                <li><a href="kart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a href="kart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+
             </ul>
+        </div>
+        <div id="mobile">
+            <a href="kart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+            
         </div>
     </section>
 
@@ -259,6 +280,36 @@
         </div>
 
     </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="240658807_131692455861283_7195435849864079620_n.png" class="logo-img" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Address: </p>
+            <p><strong>Phone: </strong> xxx xxxx xxx</p>
+            <div class="follow">
+                <h5>Follow Us</h5>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+ 
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="copyright">
+            <p>© 2022, VNUK - HTML mid-term</p>
+        </div>
+
+
+    </footer>
 </body>
 
 
