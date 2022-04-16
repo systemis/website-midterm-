@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url('Comfortaa-VariableFont_wght.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    background: #f5f5f5; 
+}
+#name-logo {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #BB743A;
+    padding-right: 530px;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 30px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #BB743A;
+    transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active {
+    color: #8A566E;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content:"";
+    width: 30%;
+    height: 2px;
+    bottom: -4px;
+    background-color: #8A566E;
+    position: absolute;
+    left: 30px;
+    
+}

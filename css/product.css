@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url('Comfortaa-VariableFont_wght.ttf');
+}
+* {
+    font-family: Comfortaa;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: #f5f5f5;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#name-logo {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #BB743A;
+    margin-right: 620px;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 30px;
+    position: relative;
+}
+
+#navbar li a{
+
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #BB743A;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #8A566E;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content:"";
+    width: 30%;
+    height: 2px;
+    bottom: -4px;
+    background-color: #8A566E;
+    position: absolute;
+    left: 30px;
+    
+}
+
+.logo {
+    min-width: auto;
+    height: 50px;
+}
+
+#product1 {
+    margin: 0px 20px 5px 20px;
+}
+
+#product1 .pro-container {
+    display: flex;  
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px 80px;
+}
+
+#product1 h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#product1 .pro {
+    width: 18%;
+    min-width: 200px;
+    height: 385px;
+    padding: 10px 10px;
+    border: 1px solid #E2DCDE;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.05);
+    margin: 20px 3px;
+    transition: 0.2s ease;
+}
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+
+}
+
+#product1 .pro img {
+    width: 100%;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+#product1 .pro .des span {
+    color: #606063;
+    font-size: 13px;
+}
+
+#product1 .pro .des .name-product {
+    color: #1a1a1a;
+    font-size: 16px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+}
+
+#product1 .pro .des .star i{
+    color: rgb(243,181,25);
+    font-size: 12px;
+
+}
+
+#product1 .pro .des h3 {
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #D17D61;
+}
+
+#product1 .pro .des .add-to-kart h4 {
+    font-size: 15px;
+    text-align: center;
+}
+
+#product1 .pro .des .add-to-kart{
+    margin-top: 5px;
+    padding-top: 5px;
+    width: auto;
+    height: 20px;
+    border: 1px solid #E2DCDE;
+    border-radius: 20px;
+}
+
+
