@@ -46,27 +46,22 @@
     position: relative;
 }
 
-#navbar li a, #navbar li button {
+#navbar li a{
 
     text-decoration: none;
     font-size: 17px;
     font-weight: 600;
     color: #BB743A;
     transition: 0.3s ease;
-    border: 0;
 }
 
 #navbar li a:hover,
-#navbar li a.active,
-#navbar li button:hover,
-#navbar li button.active {
+#navbar li a.active {
     color: #8A566E;
 }
 
 #navbar li a.active::after,
-#navbar li a:hover::after,
-#navbar li button.active::after,
-#navbar li button:hover::after {
+#navbar li a:hover::after {
     content:"";
     width: 30%;
     height: 2px;
