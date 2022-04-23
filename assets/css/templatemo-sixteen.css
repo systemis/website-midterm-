@@ -1,10 +1,3 @@
-/*
-
-TemplateMo 546 Sixteen Clothing
-
-https://templatemo.com/tm-546-sixteen-clothing
-
-*/
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
@@ -89,15 +82,15 @@ a.filled-button:hover {
 }
 
 .products-heading {
-	background-image: url(../images/products-heading.jpg);
+	background-image: url(../images/product-heading.jpg);
 }
 
 .about-heading {
-	background-image: url(../images/about-heading.jpg);
+	background-image: url(../images/home-slide1.jpg);
 }
 
 .contact-heading {
-	background-image: url(../images/contact-heading.jpg);
+	background-image: url(../images/home-slide1.jpg);
 }
 
 .page-heading {
@@ -318,7 +311,7 @@ header .navbar {
 
 .banner-item-01 {
 	padding: 300px 0px;
-	background-image: url(../images/slide_01.jpg);
+	background-image: url(../images/home-slide1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -326,15 +319,7 @@ header .navbar {
 
 .banner-item-02 {
 	padding: 300px 0px;
-	background-image: url(../images/slide_02.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-
-.banner-item-03 {
-	padding: 300px 0px;
-	background-image: url(../images/slide_03.jpg);
+	background-image: url(../images/product-heading.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
