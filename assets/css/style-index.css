@@ -7,8 +7,8 @@ body {
 }
 p {
 	margin-bottom: 0px;
-	font-size: 15px;
-	font-weight: 301;
+	font-size: 14px;
+	font-weight: 300;
 	color: #4a4a4a;
 	line-height: 24px;
 }
@@ -22,7 +22,7 @@ ul {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	margin: 1px;
+	margin: 0px;
 }
 
 ul.social-icons li {
@@ -35,8 +35,8 @@ ul.social-icons li:last-child {
 }
 
 ul.social-icons li a {
-	width: 51px;
-	height: 51px;
+	width: 50px;
+	height: 50px;
 	display: inline-block;
 	line-height: 50px;
 	background-color: #eee;
@@ -1039,7 +1039,7 @@ footer .inner-content p a {
 	}
 	.product-item .down-content span {
 		position: relative;
-		right: 1;
+		right: 0;
 		bottom: 0;
 	}
 }
