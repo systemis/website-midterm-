@@ -8,7 +8,7 @@
  */
 .owl-carousel {
   display: none;
-  width: 90%;
+  width: 100%;
   -webkit-tap-highlight-color: transparent;
   /* position relative and z-index fix webkit rendering fonts issue */
   position: relative;
@@ -24,7 +24,7 @@
     display: block;
     clear: both;
     visibility: hidden;
-    line-height: 1;
+    line-height: 0;
     height: 0; }
   .owl-carousel .owl-stage-outer {
     position: relative;
